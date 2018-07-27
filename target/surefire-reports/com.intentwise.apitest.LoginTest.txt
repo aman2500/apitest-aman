@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.intentwise.apitest.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.581 sec <<< FAILURE!
+getAllOrganization(com.intentwise.apitest.LoginTest)  Time elapsed: 1.48 sec  <<< FAILURE!
+java.lang.AssertionError: expected [301] but found [401]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.intentwise.apitest.LoginTest.getAllOrganization(LoginTest.java:125)
+
+getUser(com.intentwise.apitest.LoginTest)  Time elapsed: 0.456 sec  <<< FAILURE!
+java.lang.AssertionError: expected [301] but found [401]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.intentwise.apitest.LoginTest.getUser(LoginTest.java:98)
+
